@@ -5,28 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#principais">Principais Skills</a>
-    <a href="#outras">Outras Skills</a>
-    <br>
-    <img id="profile_picture" src="images/profile-picture.jpg" alt="foto de perfil">
-    <h1>João Antonio Sampaio Moura</h1>
-    <a href="https://gamejolt.com/@jooj04" target="tab">Meu Gamejolt</a>
-    <h2>Desenvolvedor Web iniciante | Game Developer <br>Fascinado por computadores</h2>
-    <h2 id="principais" class="list_head">Principais Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Pygame</li>
-        <li>GameDev</li>
-    </ul>
-    <h2 id="outras", class="list_head">Outras Skills</h2>
-    <ul>
-        <li>Inglês razoável</li>
-        <li>Edição de vídeo</li>
-        <li>HTML básico</li>
-    </ul>
-    <a href="#profile_picture">voltar para o topo</a>
+    <div id="top">
+        <h1 id="name">João Antonio Sampaio</h1>
+        <h3 id="subtitle">Web Developer Iniciante | Game Developer</h3>
+    </div>
+
+    <div id="center">
+        <img id="profile_picture" src="images/profile-picture.jpg" alt="foto de perfil">
+        
+        <h2 id="c_text">Um pouco sobre mim:</h2>
+        <br>
+        <a href="#main" id="main" class="list">Principais Skills</a>
+        <a href="#other" id="other" class="list">Outras Skills</a>
+        <a href="https://gamejolt.com/@jooj04" target="new-tab" id="gamejolt" class="list">Meu Gamejolt</a>
+    </div>
+
+    <div id="inter">
+        <ul id="main">
+            <li>Python</li>
+            <li>Pygame</li>
+            <li>GameDev</li>
+        </ul>
+        <ul id="other">
+            <li>Inglês razoável</li>
+            <li>Edição de vídeo</li>
+            <li>HTML básico</li>
+        </ul>
+    </div>
+
+    <div id="bottom">
+        <p>|Portfólio em constante Construção|</p>
+    </div>
+
 </body>
 </html>
